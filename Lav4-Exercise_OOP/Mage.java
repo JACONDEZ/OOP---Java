@@ -73,7 +73,7 @@ public class Mage extends GameCharacter implements CasterAbility {
         return maxMana;
     }
 
-    // ==================== GETTERS & SETTERS ====================
+  
     public void setMana(int mana) {
         this.mana = Math.max(0, Math.min(mana, maxMana)); // Keep within bounds
     }
